@@ -1,0 +1,452 @@
+split	row_index	intent	urgency	product	sentiment	rule	rationale
+test	8	hoan_tien	trung_binh	tiki	tieu_cuc	S1	Explicit refund owed after cancellation; no urgency deadline.
+test	12	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Account disabled and security concern; software access complaint.
+test	14	san_pham_loi	trung_binh	dép	tieu_cuc	S1	Slippery footwear and uncomfortable sweating.
+test	20	san_pham_loi	trung_binh	cửa hàng E	tieu_cuc	S1	Marketplace app search and messages abnormally slow.
+test	27	doi_tra	cao	tiki	tieu_cuc	S1	Return pending nearly one month; prolonged unresolved request.
+test	31	van_chuyen	trung_binh	kem	tieu_cuc	S1	Promised gift missing from shipment.
+test	33	van_chuyen	trung_binh	kem	tieu_cuc	S1	Packaging criticized as poor despite no damage.
+test	35	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Voice recognition still fails after update.
+test	37	san_pham_loi	trung_binh	line	tieu_cuc	S1	Outgoing call has no sound in latest version.
+test	40	san_pham_loi	trung_binh	kem	tieu_cuc	S1	Cream leaves streaks and dries skin; product symptom dominates packaging.
+test	44	san_pham_loi	trung_binh	game	tieu_cuc	S1	Progress reset from level 500 to 1 and cannot advance.
+test	47	san_pham_loi	trung_binh	game	tieu_cuc	S1	Login and invalid-name errors.
+test	49	san_pham_loi	thap	đầm	tieu_cuc	S1	Mild dissatisfaction with dress fabric; no immediate functional block.
+test	59	san_pham_loi	trung_binh	phần mềm	tieu_cuc	S1	Paid learning access code not delivered; no explicit refund request.
+test	70	san_pham_loi	thap	quần	tieu_cuc	S1	Mild oversized fit report without overall accepting conclusion.
+test	72	van_chuyen	trung_binh	son	tieu_cuc	S1	Promised lipstick gift missing.
+test	74	san_pham_loi	trung_binh	game	tieu_cuc	S1	Account switching malfunction included among complaints.
+test	81	van_chuyen	trung_binh	kem nền	tieu_cuc	S1	Wrong foundation delivered; no explicit return request.
+test	84	san_pham_loi	trung_binh	game	tieu_cuc	S1	Screen remains frozen even on stronger device.
+test	88	san_pham_loi	trung_binh	game	tieu_cuc	S1	Lag and crashing functions need fixing.
+test	89	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Detection does not run reliably in background.
+test	113	doi_tra	trung_binh	tiki	tieu_cuc	S1	Defective goods retrieval dispute; return process explicitly discussed.
+test	120	san_pham_loi	cao	game	trung_tinh	S2	Explicit five-star approval outweighs graphics-only faults; explicit expedited fix request sớm.
+test	126	hoi_thong_tin	thap	ứng dụng	trung_tinh	S1	Direct question about privacy protection principles.
+test	130	san_pham_loi	trung_binh	aP	tieu_cuc	S1	Intrusive unsolicited programs impair intended communication use.
+test	140	san_pham_loi	trung_binh	game	tieu_cuc	S1	Undismissable notice prevents access despite reinstalling.
+test	143	san_pham_loi	trung_binh	quần	tieu_cuc	S1	Waist elastic excessively small; explicit sad reaction.
+test	152	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	App login fails while website works; new accounts also disabled.
+test	157	van_chuyen	trung_binh	tiki	tieu_cuc	S1	No order progress after five days; shipment information complaint.
+test	175	san_pham_loi	trung_binh	game	tieu_cuc	S1	Cannot link existing Google account after maintenance.
+test	177	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Update removes reverse translation and copy functionality.
+test	182	san_pham_loi	trung_binh	quần	tieu_cuc	S1	Thin material and poor seams; garment quality dominates.
+test	195	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Correct reading marked wrong by application.
+test	200	san_pham_loi	trung_binh	game liên quân	tieu_cuc	S1	Updates introduce lag and degrade gaming experience.
+test	204	san_pham_loi	trung_binh	game	tieu_cuc	S1	Account blocked soon after payment; software access issue.
+test	207	van_chuyen	trung_binh	áo	tieu_cuc	S1	One shirt delivered in wrong size; no exchange requested.
+test	214	san_pham_loi	trung_binh	quần	tieu_cuc	S1	Poor proportions and defective fit.
+test	256	van_chuyen	trung_binh	kem	tieu_cuc	S1	Advertised gift not included.
+test	259	van_chuyen	trung_binh	điện thoại samsung galaxy m21	tieu_cuc	S1	Late careless delivery and crushed box dominate service complaint.
+test	269	van_chuyen	trung_binh	sữa rửa mặt	tieu_cuc	S1	Missing promised gift and absent cap seal; fulfilment complaint.
+test	285	san_pham_loi	trung_binh	quần	tieu_cuc	S1	Too short and cannot fit stated body weight.
+test	309	van_chuyen	trung_binh	sữa rửa mặt	tieu_cuc	S1	Only cleanser arrived; gift missing.
+test	324	van_chuyen	thap	áo	trung_tinh	S2	Color lighter than pictured but overall value and stitching explicitly accepted.
+test	340	van_chuyen	trung_binh	điện thoại	tieu_cuc	S1	Promotional case absent from package.
+test	366	san_pham_loi	trung_binh	kem	tieu_cuc	S1	Abnormal alcohol smell and quality versus previous purchase.
+test	368	van_chuyen	trung_binh	kem	tieu_cuc	S1	Second pictured tube missing from shipment.
+test	375	van_chuyen	trung_binh	son	tieu_cuc	S1	Lipstick received without gift.
+test	384	van_chuyen	trung_binh	quần	tieu_cuc	S1	Size label inconsistent with delivered size.
+test	452	san_pham_loi	cao	tinh chất	tieu_cuc	S1	Explicit repeated skin irritation and new acne after application; harm rule.
+test	480	san_pham_loi	cao	ứng dụng line	tieu_cuc	S1	Missing business message notifications; explicit khắc phục gấp.
+test	10	SKIP				no_supported_intent	Monetization and desired random rewards; feature suggestion without software fault.
+test	15	SKIP				no_target_product	Phone is a device used to draw; unnamed drawing app is the complained-about product.
+test	17	SKIP				no_supported_intent	Preferred translation layout is a feature suggestion.
+test	21	SKIP				no_supported_intent	Requests new auto-update and reward features.
+test	25	SKIP				no_target_product	Mentioned dress is clothing worn with unnamed cosmetic; cosmetic has no product span.
+test	39	SKIP				no_target_product	Quần què is an insult rather than the purchased product.
+test	53	SKIP				pure_praise_no_request	Rhetorical why question followed by strong praise; no support request.
+test	67	SKIP				no_supported_intent	Character appearance preference and request for more survival games.
+test	98	SKIP				pure_praise_no_request	Praise and recommendation with no request.
+test	103	SKIP				no_supported_intent	Wants new Minecraft features rather than information or fault repair.
+test	104	SKIP				pure_praise_no_request	Instruction to other users and public health encouragement.
+test	109	SKIP				no_supported_intent	Driver attitude complaint outside shipment or product-fault label definitions.
+test	112	SKIP				no_supported_intent	Wants song-search feature added.
+test	125	SKIP				no_supported_intent	Reward balance preference rather than functional failure.
+test	154	SKIP				no_supported_intent	General proposal to expand FAQ content; no direct personal information request.
+test	186	SKIP				no_supported_intent	Requests additional game functions.
+test	190	SKIP				no_supported_intent	Character balance complaint rather than demonstrated software failure.
+test	192	SKIP				no_supported_intent	Dislikes gameplay tasks and puzzle design.
+test	194	SKIP				no_supported_intent	Difficulty preference; no functional defect.
+test	218	SKIP				no_supported_intent	Unavailable seller stock and listing policy; no dispatched shipment or explicit information request.
+test	221	SKIP				no_supported_intent	Wants fewer updates for storage reasons without an actual fault.
+test	238	SKIP				ambiguous_text	Hộp bị không does not identify an interpretable problem.
+test	240	SKIP				pure_praise_no_request	Enthusiastic learning-app praise; no support request.
+train	1	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Cannot download music and activation code fails.
+train	2	san_pham_loi	thap	máy	trung_tinh	S2	Minor frame-rate issue with explicit overall good-value conclusion.
+train	10	san_pham_loi	trung_binh	aP hack não	tieu_cuc	S1	Update resets learning progress from unit 40 to 28.
+train	13	van_chuyen	trung_binh	tiki	tieu_cuc	S1	Shipment contains one item but billed for two.
+train	16	van_chuyen	trung_binh	tinh chất	tieu_cuc	S1	Bottle escapes damaged packaging during transport.
+train	21	san_pham_loi	thap	son	tieu_cuc	S1	Lipstick insufficiently lasting; mild quality complaint.
+train	22	san_pham_loi	trung_binh	game	tieu_cuc	S1	Loading freezes at 79 percent after update.
+train	30	san_pham_loi	trung_binh	game	tieu_cuc	S1	Lag and unwanted disconnections.
+train	39	van_chuyen	trung_binh	chai xịt	tieu_cuc	S1	Wrong bottle type and missing gift.
+train	42	san_pham_loi	trung_binh	aP	tieu_cuc	S1	Endless loading spinner; malfunction precedes phrased question.
+train	43	hoan_tien	cao	áo quần	tieu_cuc	S1	Explicit return-money request after three-month exchange dispute.
+train	46	san_pham_loi	cao	ứng dụng	tieu_cuc	S1	Offline function requires internet when explicitly urgently needed.
+train	51	van_chuyen	trung_binh	ứng dụng	tieu_cuc	S1	Order cancelled for warehouse issue; fulfilment failure.
+train	53	san_pham_loi	trung_binh	game	tieu_cuc	S1	Lag and frozen play worsen with updates.
+train	60	van_chuyen	trung_binh	nước tẩy trang	tieu_cuc	S1	Advertised cleansing-water gift missing.
+train	66	san_pham_loi	trung_binh	game	tieu_cuc	S1	New update crashes when moving troops.
+train	71	van_chuyen	trung_binh	quần	tieu_cuc	S1	Trouser color does not match ordered appearance.
+train	74	san_pham_loi	trung_binh	game	tieu_cuc	S1	Black screen and unwanted restart lose game session.
+train	78	van_chuyen	thap	dép	trung_tinh	S2	Missing pictured crocodile logo; explicit attractive footwear and fast delivery.
+train	81	san_pham_loi	thap	game	trung_tinh	S2	Game explicitly very enjoyable with only mild lag.
+train	83	san_pham_loi	trung_binh	quần	tieu_cuc	S1	Thin short trousers; garment quality complaint.
+train	94	san_pham_loi	trung_binh	quần	tieu_cuc	S1	Excessively short and thin garment.
+train	98	san_pham_loi	trung_binh	quần	tieu_cuc	S1	Short trousers and tiny elastic restrict use to home.
+train	113	san_pham_loi	trung_binh	game	tieu_cuc	S1	Chat synchronization fails across devices.
+train	117	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Correct credentials rejected after reinstall.
+train	119	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Email verification never arrives after reinstall.
+train	125	san_pham_loi	trung_binh	game	tieu_cuc	S1	Repeated reinstalls do not resolve login failure.
+train	127	san_pham_loi	trung_binh	game	tieu_cuc	S1	Crashes and unresponsive controls after updates.
+train	130	san_pham_loi	trung_binh	game	tieu_cuc	S1	Slow startup and lag; requests review of performance.
+train	141	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Wrong dictionary meanings constitute current content errors.
+train	155	san_pham_loi	trung_binh	váy	tieu_cuc	S1	Dress arrived torn.
+train	159	san_pham_loi	trung_binh	game	tieu_cuc	S1	Unresolved payment exploit explicitly described as bug.
+train	171	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Repeated verification prompt impairs every launch.
+train	176	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Same updated app has missing functions on one account.
+train	177	van_chuyen	trung_binh	kem	tieu_cuc	S1	Advertised promotional cream tube absent.
+train	186	san_pham_loi	trung_binh	game	tieu_cuc	S1	Cannot enter game after one-hour wait.
+train	189	san_pham_loi	trung_binh	game	tieu_cuc	S1	Connected WiFi not recognized by game.
+train	205	san_pham_loi	trung_binh	aP	tieu_cuc	S1	Update removes pronunciation aid previously used.
+train	206	van_chuyen	trung_binh	kem dưỡng trắng	tieu_cuc	S1	Packaging appears suspiciously counterfeit; no intrinsic symptom established.
+train	216	san_pham_loi	trung_binh	game	tieu_cuc	S1	Forced advertising blocks exit after every song.
+train	221	san_pham_loi	trung_binh	lords mobile - gamota	tieu_cuc	S1	Promised in-game promotional credit absent despite meeting requirement.
+train	226	san_pham_loi	trung_binh	váy	tieu_cuc	S1	Dress unusably thin; buyer disappointed.
+train	11	SKIP				pure_praise_no_request	Praise and generic good wishes for development.
+train	17	SKIP				pure_praise_no_request	Positive recommendation to install software.
+train	19	SKIP				no_target_product	Account problem but no named app or product phrase.
+train	20	SKIP				no_supported_intent	Requests game balance changes rather than repair or information.
+train	26	SKIP				no_target_product	Phone is installation device; actual application is unnamed.
+train	33	SKIP				no_supported_intent	Requests new monthly payment option; not asking existing billing facts.
+train	37	SKIP				no_supported_intent	Difficulty and monetization preference without demonstrated defect.
+train	44	SKIP				no_supported_intent	Player conduct moderation request outside allowed intents.
+train	79	SKIP				no_supported_intent	Requests cars and multiplayer features.
+train	89	SKIP				no_target_product	Quần lót refers to underwear visible through unnamed outer garment.
+train	93	SKIP				no_supported_intent	Requests geographical game content expansion.
+train	136	SKIP				no_target_product	Phone being purchased not named; installed games are comparison context.
+train	157	SKIP				no_supported_intent	Warranty activation service request without inquiry or defect.
+train	162	SKIP				no_target_product	Other applications are comparisons; blocked app itself is unnamed.
+train	166	SKIP				pure_praise_no_request	Accepts random color and gives five-star approval.
+train	192	SKIP				pure_praise_no_request	Thin fabric explicitly appreciated as cool; thanks seller.
+train	198	SKIP				no_supported_intent	Gameplay balance and reward preferences.
+train	202	SKIP				pure_praise_no_request	Positive gameplay comparison without service request.
+train	208	SKIP				no_supported_intent	Fake account moderation proposal outside allowed intents.
+train	210	san_pham_loi	trung_binh	meSenger	tieu_cuc	S1	App unexpectedly uninstalls itself overnight; stylized name preserved verbatim.
+train	215	SKIP				ambiguous_text	Vague collar discomfort with five-star endorsement; no interpretable defect.
+train	218	SKIP				ambiguous_text	Damaged cap but fit tôi appears only as an earlier purchase; current cosmetic unidentified.
+train	225	van_chuyen	trung_binh	lazada	tieu_cuc	S1	Marketplace fulfilment lacks advertised promotional gift; service named explicitly.
+train	240	san_pham_loi	trung_binh	facebook	tieu_cuc	S1	Repeated account locking despite genuine identity.
+train	246	hoi_thong_tin	thap	áo	tich_cuc	S3	Explicit product praise and concrete question about next purchase price.
+train	251	san_pham_loi	trung_binh	game	tieu_cuc	S1	Paid game cannot load parkour map; explicitly asks bug repair.
+train	253	van_chuyen	trung_binh	kem nền	tieu_cuc	S1	Advertised gift bundle absent from shipment.
+train	260	van_chuyen	trung_binh	áo	tieu_cuc	S1	One of three paid shirts delivered; missing quantity dominates.
+train	264	san_pham_loi	trung_binh	game	tieu_cuc	S1	Local version has substantially higher lag.
+train	266	van_chuyen	trung_binh	lazada	tieu_cuc	S1	Order accepted but later cannot be dispatched.
+train	269	hoi_thong_tin	trung_binh	game	tieu_cuc	S1	Concrete question on removing account linkage amid negative game-policy complaint.
+train	273	san_pham_loi	cao	game	tieu_cuc	S1	Every upgrade action crashes game; explicit nhanh chóng request.
+train	277	san_pham_loi	trung_binh	game	tieu_cuc	S1	Match fails to load and causes repeated unjust AFK penalties.
+train	282	san_pham_loi	thap	quần	trung_tinh	S2	Accepts product as được with only mild thinness observation.
+train	284	doi_tra	trung_binh	đầm	tieu_cuc	S1	Explicit request to exchange size and color.
+train	285	san_pham_loi	trung_binh	game	tieu_cuc	S1	Disconnects despite stable network.
+train	288	san_pham_loi	trung_binh	dép	tieu_cuc	S1	Footwear breaks after one day.
+train	292	san_pham_loi	thap	game	trung_tinh	S2	Explicit enjoyable-game praise with only slightly slow loading.
+train	293	van_chuyen	trung_binh	sữa rửa mặt	tieu_cuc	S1	Promised cleanser gift replaced by mask.
+train	294	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Camera permission prompt repeats every recording; calls it a malfunction.
+train	306	san_pham_loi	trung_binh	facebook	tieu_cuc	S1	Repeated unexpected identity challenges on successive accounts.
+train	312	san_pham_loi	trung_binh	đầm	tieu_cuc	S1	New dress has torn sleeve.
+train	316	san_pham_loi	trung_binh	game	tieu_cuc	S1	Payment website explicitly broken.
+train	320	san_pham_loi	trung_binh	zing mp3	tieu_cuc	S1	Deleted songs reappear and local audio playback regresses.
+train	321	san_pham_loi	trung_binh	facebook	tieu_cuc	S1	Identity verification rejects genuine photo and disables account.
+train	322	san_pham_loi	trung_binh	điện thoại	tieu_cuc	S1	Speaker fails and crackles after several days.
+train	329	san_pham_loi	trung_binh	bluezone	tieu_cuc	S1	Requests restoration of previously available exposure-count function.
+train	337	van_chuyen	trung_binh	dép	tieu_cuc	S1	Wrong colors and unprotected crushed footwear in shipment.
+train	343	san_pham_loi	trung_binh	game	tieu_cuc	S1	Loading stuck for forty minutes on strong WiFi.
+train	345	san_pham_loi	trung_binh	điện thoại	tieu_cuc	S1	Advertised fast charging abnormally slow.
+train	346	san_pham_loi	thap	dép	tieu_cuc	S1	Footwear mildly wider than size specification.
+train	357	san_pham_loi	trung_binh	son	tieu_cuc	S1	Lipstick not lasting and untraceable barcode; product quality concern.
+train	359	van_chuyen	trung_binh	son	tieu_cuc	S1	Pictured lipstick gift absent.
+train	360	san_pham_loi	trung_binh	đầm	tieu_cuc	S1	Dress seam opens by about five centimeters.
+train	366	san_pham_loi	trung_binh	aP	tieu_cuc	S1	Playback spontaneously stops despite correct repeat and timer settings.
+train	378	san_pham_loi	cao	game	tieu_cuc	S1	Cannot play due to lag; explicit sửa lại nhanh repeated.
+train	379	van_chuyen	trung_binh	kem nền	tieu_cuc	S1	Only foundation received; promised gift absent.
+train	389	san_pham_loi	trung_binh	game	tieu_cuc	S1	Existing font strokes merge and make Japanese characters unreadable.
+train	394	san_pham_loi	trung_binh	kem trị mụn	tieu_cuc	S1	Acne cream causes dry facial skin despite smoothing benefit.
+train	396	van_chuyen	thap	son	trung_tinh	S2	Minor cap contact preserves lipstick shape; overall favorable review.
+train	405	van_chuyen	trung_binh	máy	tieu_cuc	S1	Crushed box and charger appears previously used.
+train	411	san_pham_loi	trung_binh	game	tieu_cuc	S1	Latest update freezes while other apps work.
+train	413	san_pham_loi	thap	son	trung_tinh	S2	Minor loose cap and fading but explicit very good value and quality conclusion.
+train	416	san_pham_loi	trung_binh	aP	tieu_cuc	S1	Cannot cancel accidentally placed orders because control is absent.
+train	425	san_pham_loi	trung_binh	game	tieu_cuc	S1	Rendering artifacts and repeated disconnects.
+train	426	van_chuyen	trung_binh	nước tẩy trang	tieu_cuc	S1	Advertised small cleansing-water gift missing.
+train	434	san_pham_loi	trung_binh	phần mềm	tieu_cuc	S1	Update breaks group-member invitation and deletion controls.
+train	229	SKIP				pure_praise_no_request	Positive recommendation to all users.
+train	232	SKIP				no_supported_intent	Requests more map landmarks rather than repair or information.
+train	237	SKIP				no_supported_intent	General marketplace seller-moderation proposal; no concrete product incident.
+train	252	SKIP				no_supported_intent	Wants chat function added; does not establish a broken existing function.
+train	256	SKIP				no_supported_intent	Game design and monetization dissatisfaction without functional defect.
+train	274	SKIP				no_supported_intent	Requests conversion to RPG and new features.
+train	304	SKIP				no_supported_intent	Explains expected Bluetooth coverage limitation; requests no allowed action.
+train	305	SKIP				no_supported_intent	Wants new server edition and cosmetic skins.
+train	314	SKIP				no_supported_intent	Player moderation policy request.
+train	315	SKIP				ambiguous_text	Only cleanser mentioned without establishing whether another item was promised.
+train	318	SKIP				no_target_product	Actual blocked app unnamed; mentioned software describes an accusation.
+train	319	SKIP				no_supported_intent	Aesthetic disappointment and broad upgrade wish without identified failure.
+train	338	SKIP				no_supported_intent	Unsubscribe from sales calls request outside the five allowed intents.
+train	356	SKIP				no_supported_intent	Explicitly says game has no problem; objects to player moderation.
+train	368	SKIP				no_supported_intent	Wants new administrator election feature.
+train	375	SKIP				no_target_product	Unnamed recording app; phone is only an upload device.
+train	381	SKIP				no_supported_intent	Requests user-contribution functions added.
+train	391	SKIP				no_supported_intent	Admin favoritism and power balance accusations; no software malfunction.
+train	395	SKIP				no_supported_intent	Wants vocabulary mode added.
+train	398	SKIP				no_supported_intent	Country-of-origin worry despite satisfying lipstick quality; no fault or request.
+train	399	SKIP				no_supported_intent	Price-value opinion without concrete fault or request.
+train	400	SKIP				no_supported_intent	Wants navigation buttons replacing intended location-based gameplay.
+train	401	SKIP				no_supported_intent	Requests cosmetic interface redesign with no defect.
+train	404	SKIP				pure_praise_no_request	Positive cleanser review without support request.
+train	431	SKIP				no_supported_intent	General warning about unofficial game monetization, no functional failure.
+train	450	SKIP				no_supported_intent	Dislikes automatic character control design; no malfunction established.
+train	462	hoi_thong_tin	trung_binh	game	tieu_cuc	S1	Asks whether incorrectly entered identity details would lose the account.
+train	464	van_chuyen	trung_binh	lazada	tieu_cuc	S1	Product delivered without seals and packaging differs from listing.
+train	465	van_chuyen	trung_binh	lazada	tieu_cuc	S1	Delivery much slower than usual; named marketplace service.
+train	477	san_pham_loi	trung_binh	instagram	tieu_cuc	S1	Posts cannot load or upload despite strong WiFi.
+train	480	san_pham_loi	trung_binh	aP	tieu_cuc	S1	Many incorrect exercises and answer keys.
+train	486	hoi_thong_tin	thap	game	tich_cuc	S3	Asks how doubled battle speed works amid explicit praise and thanks.
+train	489	san_pham_loi	trung_binh	game	tieu_cuc	S1	Payment withdrawal selector lacks game after topping up.
+train	496	san_pham_loi	trung_binh	facebook lite	tieu_cuc	S1	Login remains loading for up to a day despite strong WiFi.
+train	497	san_pham_loi	trung_binh	game	tieu_cuc	S1	Frozen game cannot be played.
+train	505	SKIP				no_target_product	Warranty question but target device unnamed; lazada mentioned only as sales exclusivity.
+train	508	van_chuyen	trung_binh	dầu gội	tieu_cuc	S1	Shampoo marked delivered but missing from package.
+train	510	hoi_thong_tin	thap	aP	tieu_cuc	S1	Asks whether kana audio is unavailable by design or broken.
+train	513	san_pham_loi	trung_binh	game	tieu_cuc	S1	Promised initial top-up reward not credited correctly.
+train	516	san_pham_loi	trung_binh	game	tieu_cuc	S1	Verification timeout permanently prevents login.
+train	518	san_pham_loi	trung_binh	game	tieu_cuc	S1	Lag and failure to start next stage.
+train	519	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Wrong positioning and recurring top-up failures.
+train	520	san_pham_loi	trung_binh	aP	tieu_cuc	S1	Incorrect dictionary translations and failed character recognition.
+train	531	san_pham_loi	trung_binh	quần	tieu_cuc	S1	Poor fabric and extremely thin waistband.
+train	544	san_pham_loi	thap	quần	trung_tinh	S2	Explicit beautiful-garment praise with only slightly short length.
+train	549	van_chuyen	trung_binh	kem nền	tieu_cuc	S1	Promised makeup sponge gift missing.
+train	553	san_pham_loi	trung_binh	ins	tieu_cuc	S1	Messages delayed despite notifications; concrete communication failure.
+train	561	van_chuyen	trung_binh	băng đô	tieu_cuc	S1	Promised headband gift not delivered.
+train	567	san_pham_loi	trung_binh	aP	tieu_cuc	S1	Own phone number wrongly reported already registered.
+train	572	san_pham_loi	thap	máy	trung_tinh	S2	Charge limited to 97 percent but explicit otherwise all acceptable conclusion.
+train	584	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Login and registration fail for five days after phone change.
+train	586	san_pham_loi	trung_binh	son	tieu_cuc	S1	Unpleasant crayon smell and not expected smooth texture.
+train	592	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Shared location fails despite reinstall.
+train	599	san_pham_loi	trung_binh	game	tieu_cuc	S1	Update loses previous guest account.
+train	601	san_pham_loi	trung_binh	tinh chất	tieu_cuc	S1	Abnormally watery essence and authenticity concern.
+train	602	san_pham_loi	trung_binh	game	tieu_cuc	S1	New warning overlay covers and disables firing button.
+train	610	san_pham_loi	trung_binh	game	tieu_cuc	S1	Startup too slow and completed updates repeat.
+train	611	san_pham_loi	cao	ứng dụng	tieu_cuc	S1	Slow gesture response; explicitly requests improving performance sớm.
+train	617	san_pham_loi	trung_binh	zalo	tieu_cuc	S1	Daily backed-up messages cannot be restored after reset.
+train	619	san_pham_loi	trung_binh	áo	tieu_cuc	S1	Excess thread and reversed hem; defect more concrete than late delivery.
+train	636	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Marketplace app repeatedly crashes; delivery complaint secondary.
+train	637	van_chuyen	trung_binh	dép	tieu_cuc	S1	Ordered size 37 but received 38.
+train	639	van_chuyen	trung_binh	tai nghe	tieu_cuc	S1	Headphones absent; explicit missing product rather than generic goods.
+train	640	san_pham_loi	thap	kem chống nắng	trung_tinh	S2	Limited oil control but overall explicitly acceptable and recommended.
+train	641	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Uploading image resets app and screen area missing.
+train	643	san_pham_loi	cao	ứng dụng	tieu_cuc	S1	Cannot load for several weeks; explicitly asks early repair.
+train	646	van_chuyen	trung_binh	lazada	tieu_cuc	S1	Marketplace shipment lacks promised gift.
+train	651	van_chuyen	trung_binh	son	tieu_cuc	S1	Advertised lipstick gift missing.
+train	652	san_pham_loi	trung_binh	game	tieu_cuc	S1	Reward displayed as awarded but absent from inventory.
+train	653	san_pham_loi	trung_binh	kem nền	tieu_cuc	S1	Wrong shade and not smooth texture.
+train	660	doi_tra	trung_binh	aP	tieu_cuc	S1	Explicit complaint about inaccessible marketplace return procedure.
+train	666	san_pham_loi	thap	áo	trung_tinh	S2	Nice smooth garment with only mildly thin fabric.
+train	673	san_pham_loi	thap	kem	trung_tinh	S2	Minor limited oil-control duration amid explicit favorable shade and texture.
+train	674	san_pham_loi	trung_binh	quần	tieu_cuc	S1	Cannot fit trousers; crying response outweighs looks.
+train	677	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Cannot reactivate app despite following support instructions.
+train	680	van_chuyen	trung_binh	điện thoại	tieu_cuc	S1	Phone delivered with warranty activated before receipt.
+train	685	san_pham_loi	trung_binh	son	tieu_cuc	S1	Lipstick has overwhelming abnormal smell.
+train	695	san_pham_loi	cao	game	tieu_cuc	S1	Repeated crashes on device family; explicit sớm nhất có thể request.
+train	705	san_pham_loi	trung_binh	game	tieu_cuc	S1	Cannot launch despite strong WiFi and other games working.
+train	706	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Video pauses, answer UI breaks, and vocabulary audio buttons fail.
+train	453	SKIP				ambiguous_text	Truncated review discusses size without fully establishing present failure.
+train	472	SKIP				no_supported_intent	Unrealistic animation explicitly accepted as design tradeoff.
+train	491	SKIP				no_supported_intent	Wants new features and interface rather than existing-function repair.
+train	506	SKIP				no_supported_intent	Dislikes intended automatic gameplay design.
+train	523	SKIP				no_supported_intent	Server release frequency and low population design complaint.
+train	526	SKIP				pure_praise_no_request	Supports installation and tracing benefits.
+train	532	SKIP				no_supported_intent	Wants privacy rules relaxed and comments made visible.
+train	538	SKIP				no_supported_intent	General insult without concrete fault or request.
+train	541	SKIP				no_supported_intent	General seller oversight proposal without identifiable product fault.
+train	554	SKIP				no_supported_intent	Paid versus free feature preference.
+train	573	SKIP				no_supported_intent	Game reward balance complaint.
+train	574	SKIP				pure_praise_no_request	Public health wishes unrelated to support request.
+train	594	SKIP				no_supported_intent	Pay-to-win balance complaint without functional failure.
+train	607	SKIP				no_supported_intent	Wants adding unsupported specialist terms to dictionary.
+train	612	SKIP				no_supported_intent	User-language moderation proposal.
+train	621	SKIP				no_supported_intent	Requests free pricing rather than information.
+train	623	SKIP				no_target_product	Progress loss but unnamed game; G play and Gmail are account services.
+train	632	SKIP				no_supported_intent	Driver availability and staffing complaint outside shipment intent.
+train	650	SKIP				no_target_product	Crashing game unnamed; Facebook is only support channel.
+train	655	SKIP				no_supported_intent	Paid VIP price preference without inquiry.
+train	657	SKIP				no_supported_intent	Requests different server release schedule.
+train	671	SKIP				no_supported_intent	Balance and event scheduling proposal, no actual software fault.
+train	679	SKIP				no_target_product	Generic applications plural are not the specific unnamed timed game.
+train	681	SKIP				no_supported_intent	Resource acquisition and gameplay balance preference.
+train	691	SKIP				no_target_product	Login failure but actual application unnamed; phone and Gmail are context.
+train	693	SKIP				no_supported_intent	Instructions for other users rather than personal fault report or request.
+train	971	hoan_tien	cao	tiki	tieu_cuc	S1	Cancelled prepaid order refund unreceived for half a month.
+train	1051	doi_tra	trung_binh	lazada	tieu_cuc	S1	Wrong-model return refused and buyer charged extra shipping.
+train	1181	hoan_tien	trung_binh	gradpay	tieu_cuc	S1	Explicit refusal to return prepaid wallet balance after wallet migration.
+train	1341	doi_tra	trung_binh	quần	tieu_cuc	S1	Cannot obtain address to exchange tight trousers.
+train	1353	doi_tra	thap	áo	tich_cuc	S3	Noncomplaint human label with shirt praise and polite exchange eligibility question.
+train	1373	doi_tra	trung_binh	áo	tieu_cuc	S1	Explicit request to exchange three shirts with wrong colors.
+train	1388	san_pham_loi	trung_binh	game	tieu_cuc	S1	Purchased reward missing although payment deducted; asks investigation not refund.
+train	1891	hoan_tien	trung_binh	dép	tieu_cuc	S1	Explicit pending refund request after wrong color and quantity.
+train	1906	hoan_tien	trung_binh	dép	tieu_cuc	S1	Asks repayment for five undelivered paid pairs.
+train	1988	san_pham_loi	thap	đầm	trung_tinh	S2	Minor seam defect personally repaired; explicit five-star endorsement.
+train	2082	doi_tra	trung_binh	lazada	tieu_cuc	S1	Explicit request for marketplace assistance exchanging newly defective goods.
+train	2086	san_pham_loi	trung_binh	game	tieu_cuc	S1	One server rejects login despite game and device reinstallation.
+train	2283	hoi_thong_tin	trung_binh	tiki	tieu_cuc	S1	Direct question about why cash-on-delivery unavailable on certain goods.
+train	2537	doi_tra	trung_binh	lazada	tieu_cuc	S1	Return procedure and repeated return-shipping charges criticized after poor purchases.
+train	3122	doi_tra	trung_binh	áo	tieu_cuc	S1	Explicit exchange of child-size shirt for ordered adult 4XL.
+train	3520	hoan_tien	trung_binh	game	tieu_cuc	S1	Explicit inability to obtain requested game refund.
+train	3684	SKIP				no_target_product	Explicit refund problem but no product or app phrase; generic order is not a product.
+train	3689	hoi_thong_tin	trung_binh	điện thoại	tieu_cuc	S1	Asks warranty usage information after missing seal and screen protection.
+train	3716	doi_tra	trung_binh	váy	tieu_cuc	S1	Wrong dress returned at buyer expense but exchange not resolved.
+train	3761	san_pham_loi	trung_binh	facebOk	tieu_cuc	S1	Genuine identity rejected and account locked; requests account restoration.
+train	3785	san_pham_loi	trung_binh	facebook	tieu_cuc	S1	Nicknames disappear and cross-app stories fail to synchronize.
+train	3919	doi_tra	trung_binh	áo	tieu_cuc	S1	Explicit request for larger shirt after inaccurate fit advice.
+train	4034	san_pham_loi	trung_binh	game	tieu_cuc	S1	Reset password still rejected by game login.
+train	4124	van_chuyen	trung_binh	grab	tieu_cuc	S1	Paid order marked complete without delivery and no support after two days.
+train	4133	doi_tra	trung_binh	máy	tieu_cuc	S1	Already initiated exchange or return; asks marketplace to review it.
+train	707	san_pham_loi	trung_binh	game	tieu_cuc	S1	Recent updates cause freezes and crashes; concrete fault takes priority over feature wishes.
+train	714	san_pham_loi	trung_binh	aP	tieu_cuc	S1	Review submission falsely reports no connection despite strong WiFi.
+train	721	san_pham_loi	trung_binh	game	tieu_cuc	S1	Unresponsive entry button and repeated login; apparent five-star phrase is sarcasm.
+train	723	van_chuyen	trung_binh	lazada	tieu_cuc	S1	Accepted order cancelled without notification.
+train	724	san_pham_loi	trung_binh	phần mềm	tieu_cuc	S1	Learning software teaches incorrect pronunciation rules.
+train	727	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Correct pronunciation recognized as unrelated word.
+train	734	san_pham_loi	thap	đầm	trung_tinh	S2	Dress explicitly beautiful and matches photo; only slightly wide fit.
+train	738	san_pham_loi	trung_binh	facebOk	tieu_cuc	S1	Cannot recover account through registered email.
+train	739	san_pham_loi	cao	zalo	tieu_cuc	S1	Another person can access account after loss of phone number; active security harm.
+train	740	san_pham_loi	thap	phần mềm	trung_tinh	S2	Explicit recommendation despite minor typing and pronunciation errors.
+train	743	san_pham_loi	trung_binh	game	tieu_cuc	S1	Undismissable ad covers play area.
+train	754	van_chuyen	trung_binh	đầm	tieu_cuc	S1	Ordered black and white but received pink and white.
+train	757	san_pham_loi	thap	áo	trung_tinh	S2	Slightly thin shirt with explicit five-star approval.
+train	760	san_pham_loi	trung_binh	quần	tieu_cuc	S1	Trousers excessively thin despite acceptable shirt.
+train	764	van_chuyen	thap	đầm	tieu_cuc	S1	Dress delivered fitted rather than advertised flared silhouette.
+train	776	san_pham_loi	trung_binh	game	tieu_cuc	S1	Game unexpectedly kicks player out; repair explicitly requested.
+train	778	van_chuyen	trung_binh	kem	tieu_cuc	S1	Cream appears underfilled on receipt.
+train	780	san_pham_loi	trung_binh	game	tieu_cuc	S1	Existing Vietnamese translation described as poor machine translation.
+train	786	van_chuyen	trung_binh	tiki now	tieu_cuc	S1	Both same-day orders delivered next day without warning.
+train	790	san_pham_loi	trung_binh	quần	tieu_cuc	S1	Trousers child-sized and unusable while shirt fits.
+train	797	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Phone verification codes never arrive and account inaccessible.
+train	799	van_chuyen	cao	máy	tieu_cuc	S1	Delayed shipment and incorrect cancellation advice; explicitly cần gấp.
+train	802	san_pham_loi	thap	game	trung_tinh	S2	Generally stable game with mildly slow entry and polite repair request.
+train	804	san_pham_loi	trung_binh	ứng dụng zingmp3	tieu_cuc	S1	Music stops despite all relevant permissions enabled.
+train	806	san_pham_loi	trung_binh	zalo	tieu_cuc	S1	Daily backup fails to preserve old messages; recovery question follows fault.
+train	808	san_pham_loi	trung_binh	quần	tieu_cuc	S1	Thin trousers tear during wear.
+train	812	san_pham_loi	thap	ứng dụng	trung_tinh	S2	Pronunciation errors minor relative to explicit overall good and recommended conclusion.
+train	814	van_chuyen	trung_binh	kem nền	tieu_cuc	S1	Promised makeup bag and lipstick missing from two-product order.
+train	817	san_pham_loi	trung_binh	zalo	tieu_cuc	S1	App reports connection error while other apps work normally.
+train	826	san_pham_loi	thap	dép	trung_tinh	S2	Explicit attractive-footwear praise with only mildly small fit.
+train	830	van_chuyen	cao	sách	tieu_cuc	S1	Book shipment delayed three weeks and split without notification.
+train	844	san_pham_loi	trung_binh	kem	tieu_cuc	S1	Cream sticky and does not absorb like prior samples.
+train	858	san_pham_loi	trung_binh	quần	tieu_cuc	S1	Cannot fit trousers; same complaint wording as earlier source row.
+train	859	san_pham_loi	trung_binh	máy	tieu_cuc	S1	Newly purchased device lags severely in games.
+train	869	san_pham_loi	trung_binh	facebOk	tieu_cuc	S1	Account disabled despite appropriate content and supplied identity.
+train	874	san_pham_loi	trung_binh	aP	tieu_cuc	S1	Pronunciation practice repeatedly reports stopped working.
+train	881	van_chuyen	trung_binh	dép	tieu_cuc	S1	Delivered footwear lacks advertised brand mark.
+train	884	san_pham_loi	thap	game	trung_tinh	S2	Minor incorrect translations but explicitly five-star approval.
+train	888	hoi_thong_tin	thap	aP	tich_cuc	S3	Direct next-version release-date question amid strong praise.
+train	889	san_pham_loi	thap	dép	tieu_cuc	S1	Mildly undersized footwear form.
+train	892	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Existing interface fails to fill 18:9 screen correctly.
+train	897	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Accounts repeatedly locked after harmless post; explicit explanation request follows fault.
+train	900	san_pham_loi	trung_binh	facebOk	tieu_cuc	S1	Account verification text never arrives despite repeated requests.
+train	915	van_chuyen	trung_binh	sữa rửa mặt	tieu_cuc	S1	Only cleanser arrives; pictured gift missing.
+train	924	san_pham_loi	trung_binh	game	tieu_cuc	S1	Update requirement loop persists after reinstall.
+train	926	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	App unavailable for days and crashes during comments.
+train	928	san_pham_loi	thap	dép	tieu_cuc	S1	Footwear strap excessively thin versus other models.
+train	930	san_pham_loi	trung_binh	game	tieu_cuc	S1	Lightweight game lags on strong connection and capable phone.
+train	932	san_pham_loi	trung_binh	line	tieu_cuc	S1	Location sharing fails after device switch despite enabled service.
+train	944	san_pham_loi	trung_binh	quần	tieu_cuc	S1	One pair arrives with undone seams.
+train	945	van_chuyen	trung_binh	quần	tieu_cuc	S1	Delivered trousers differ from listing photo and sizing.
+train	954	san_pham_loi	cao	ứng dụng	tieu_cuc	S1	Ad audio continues over other videos; explicitly requests repair sớm.
+train	973	san_pham_loi	trung_binh	facebook	tieu_cuc	S1	Repeated account losses and faulty account sweep.
+train	980	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Registration fails with valid existing phone number.
+train	985	van_chuyen	thap	tai nghe	trung_tinh	S2	Overall very favorable product review with only missing headphones.
+train	988	san_pham_loi	cao	zalo	tieu_cuc	S1	Messaging restriction exceeds a month and harms customer transactions.
+train	991	san_pham_loi	trung_binh	facebook lite	tieu_cuc	S1	Lite app remains frozen at loading while full app works.
+train	992	van_chuyen	trung_binh	hada labo	tieu_cuc	S1	Two ordered products replaced by another brand.
+train	996	san_pham_loi	thap	quần	trung_tinh	S2	Waist mildly large but explicitly beautiful and seller trusted.
+train	708	SKIP				no_supported_intent	Requests more purchasable skins rather than defect repair.
+train	748	SKIP				pure_praise_no_request	Defends game and tells others how to disable ads; no personal issue.
+train	750	SKIP				no_supported_intent	Ride dispatch and driver behavior complaint; outside parcel delivery intent.
+train	770	SKIP				no_supported_intent	Pay-to-win and reward rates complaint without software defect.
+train	805	SKIP				ambiguous_text	Says ads misleading but does not identify a specific discrepancy.
+train	850	SKIP				no_supported_intent	Requests new Vietnamese localization rather than repair.
+train	853	SKIP				no_supported_intent	Wants holiday events and different pricing.
+train	860	SKIP				no_supported_intent	Explains gameplay evolution rules to others, no support request.
+train	865	SKIP				pure_praise_no_request	Hope for game launch, no current issue.
+train	882	SKIP				no_target_product	Unnamed garment pills; kem is only a simile and not the target product.
+train	899	SKIP				no_target_product	Only cleanser explicitly named as working; failed other cosmetics unnamed.
+train	942	SKIP				no_supported_intent	Dislikes intended new portrait design; preference rather than malfunction.
+train	956	SKIP				no_supported_intent	Requests writing practice and audio controls added.
+train	977	SKIP				no_supported_intent	Wants character-sale design restriction removed.
+train	982	SKIP				no_supported_intent	Proposes new booking confirmation feature.
+train	998	san_pham_loi	trung_binh	game	tieu_cuc	S1	Missing hero icons and animation plus occasional match loading failure.
+train	1003	san_pham_loi	trung_binh	aP	tieu_cuc	S1	One request erroneously assigned to two drivers; app dispatch defect.
+train	1004	san_pham_loi	cao	hada labo	tieu_cuc	S1	Cleanser causes severe dryness with visible skin peeling; harm rule.
+train	1005	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Explicit current product error with poor support.
+train	1024	van_chuyen	thap	dép	trung_tinh	S2	Duplicate stickers but explicit five-star approval and accepts difference.
+train	1030	san_pham_loi	thap	game	trung_tinh	S2	Slightly slow response but explicitly continued support and four-star rating.
+train	1034	van_chuyen	cao	tiki	tieu_cuc	S1	Some shipments unprocessed nearly a month.
+train	1039	san_pham_loi	trung_binh	game	tieu_cuc	S1	Playing repeatedly kicks user out of application.
+train	1040	san_pham_loi	trung_binh	game	tieu_cuc	S1	Paid lower-tier top-up rewards not received.
+train	1042	san_pham_loi	cao	game	tieu_cuc	S1	Graphics faults with explicit mau chóng sửa lỗi request.
+train	1044	van_chuyen	trung_binh	tiki	tieu_cuc	S1	Dissatisfied with existing shipment carrier and inaccessible shipment hotline.
+train	1045	van_chuyen	trung_binh	son	tieu_cuc	S1	Advertised lipstick gift absent.
+train	1048	san_pham_loi	trung_binh	dép	tieu_cuc	S1	Footwear has strong unpleasant smell and wrong tone.
+train	1049	san_pham_loi	trung_binh	aP	tieu_cuc	S1	App account abruptly blocked after falsely completed rides.
+train	1050	san_pham_loi	trung_binh	đầm	tieu_cuc	S1	Dark lining stains visible through outer dress; substantial current defect.
+train	1053	hoi_thong_tin	thap	máy	tich_cuc	S3	Strong product praise and concrete question whether warranty is activated.
+train	1054	san_pham_loi	trung_binh	zalo	tieu_cuc	S1	Cannot recover account after losing registered phone and number.
+train	1055	san_pham_loi	trung_binh	quần	tieu_cuc	S1	Thin garment and child-size waistband.
+train	1061	san_pham_loi	cao	zalo	tieu_cuc	S1	Unrequested old contacts added; explicit sớm khắc phục.
+train	1085	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Specific wrong image answer in Japanese N5 exercise.
+train	1086	san_pham_loi	trung_binh	game	tieu_cuc	S1	Cannot dismiss forced ad blocking each next play.
+train	1089	san_pham_loi	trung_binh	game	tieu_cuc	S1	Downloaded game still cannot launch after hours and repeated updates.
+train	1095	van_chuyen	trung_binh	sữa rửa mặt	tieu_cuc	S1	Cleanser appears opened before delivery.
+train	1104	doi_tra	trung_binh	lazada	tieu_cuc	S1	Damaged goods return refused by seller and support unhelpful.
+train	1105	van_chuyen	trung_binh	tai nghe	tieu_cuc	S1	Headphones absent; product adequacy does not explicitly accept missing accessory.
+train	1106	san_pham_loi	cao	ứng dụng	tieu_cuc	S1	Loading freezes at 79 percent with unresolved issue for about three months.
+train	1117	san_pham_loi	trung_binh	aP	tieu_cuc	S1	Dispatch connection error and payment deducted without order confirmation.
+train	1122	san_pham_loi	trung_binh	quần	tieu_cuc	S1	Fit excessively wide for stated weight and height.
+train	1129	san_pham_loi	trung_binh	game	tieu_cuc	S1	Game freezes after thirty seconds without background apps.
+train	1136	san_pham_loi	trung_binh	aP	tieu_cuc	S1	App advertisements cover screen after exiting and intrude into other apps.
+train	1138	van_chuyen	cao	tiki	tieu_cuc	S1	Two-hour service delivers only at nine PM despite explicit request giao sớm.
+train	1140	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Stale hidden favorites cannot be removed and give loading failure.
+train	1146	san_pham_loi	trung_binh	game	tieu_cuc	S1	Correct login credentials repeatedly rejected.
+train	1154	san_pham_loi	trung_binh	áo	tieu_cuc	S1	Poor stitching prevents wearing shirt.
+train	1163	hoi_thong_tin	thap	aP	trung_tinh	S1	Noncomplaint label and direct question whether learning app charges fees.
+train	1165	hoi_thong_tin	thap	aP	tieu_cuc	S1	Beginner does not know which learning section to start with; requests learning guidance.
+train	1167	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	App exits spontaneously during study.
+train	1196	san_pham_loi	thap	kem nền	tieu_cuc	S1	Foundation loses shade quickly; price praise alone does not accept performance.
+train	1198	san_pham_loi	trung_binh	game	tieu_cuc	S1	Cannot log in with Facebook account.
+train	1200	san_pham_loi	trung_binh	aP	tieu_cuc	S1	All app login channels fail while computer login works.
+train	1206	san_pham_loi	trung_binh	game	tieu_cuc	S1	Orientation fails to rotate as required for play.
+train	1207	san_pham_loi	cao	aP	tieu_cuc	S1	Stopped-working error prevents studying for one week despite repeated reinstall.
+train	1208	san_pham_loi	trung_binh	áo	tieu_cuc	S1	Explicit defective shirt with pulled thread.
+train	1215	san_pham_loi	trung_binh	ứng dụng	tieu_cuc	S1	Correct password and details suddenly rejected.
+train	997	SKIP				no_supported_intent	Dislikes intended VIP drop rewards and pet availability.
+train	1014	SKIP				no_supported_intent	Wants Vietnamese localization added.
+train	1022	SKIP				no_supported_intent	Player moderation and penalties dispute.
+train	1028	SKIP				no_supported_intent	Game policy and monetization complaint without technical failure.
+train	1037	SKIP				no_supported_intent	Requests stronger AFK moderation punishment.
+train	1058	SKIP				no_supported_intent	Requests smaller download and different development priorities without current malfunction.
+train	1064	SKIP				no_supported_intent	Maintenance scheduling and monetization complaint.
+train	1068	SKIP				no_supported_intent	Other people not answering messages is not established software malfunction.
+train	1073	SKIP				no_supported_intent	General accusation of admin reward favoritism without demonstrated software failure.
+train	1078	SKIP				no_supported_intent	Hypothetical marketplace risk and return policy concern without personal actionable incident.
+train	1087	SKIP				pure_praise_no_request	Cleanser praise and recommendation.
+train	1126	SKIP				no_supported_intent	Requests localization and skip-intro features added.
+train	1147	SKIP				no_supported_intent	Requests player trading feature added.
+train	1150	SKIP				no_supported_intent	Difficulty and bot skill preference.
+train	1155	SKIP				no_supported_intent	Requests less costly upgrades while explicitly enjoying game.
+train	1156	SKIP				pure_praise_no_request	App praise and invitation to other users to collaborate.
+train	1171	SKIP				pure_praise_no_request	Positive phone value review without support request.
+train	1177	SKIP				no_supported_intent	General game insult without interpretable fault or request.
+train	1191	SKIP				no_target_product	App sends messages without authorization but app itself unnamed.
+train	1197	SKIP				no_supported_intent	Event availability and monetization preference.

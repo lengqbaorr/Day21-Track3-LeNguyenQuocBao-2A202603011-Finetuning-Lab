@@ -1,0 +1,13 @@
+{
+  "default": {
+    "test": [
+      "https://huggingface.co/api/datasets/tarudesu/ViOCD/parquet/default/test/0.parquet"
+    ],
+    "train": [
+      "https://huggingface.co/api/datasets/tarudesu/ViOCD/parquet/default/train/0.parquet"
+    ],
+    "validation": [
+      "https://huggingface.co/api/datasets/tarudesu/ViOCD/parquet/default/validation/0.parquet"
+    ]
+  }
+}

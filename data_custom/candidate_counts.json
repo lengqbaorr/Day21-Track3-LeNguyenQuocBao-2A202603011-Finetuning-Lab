@@ -1,0 +1,32 @@
+{
+  "train": {
+    "source_rows": 4387,
+    "product_candidates": 1745,
+    "no_product_hint": 2642,
+    "domain": {
+      "mobile": 363,
+      "app": 1613,
+      "fashion": 1368,
+      "cosmetic": 1043
+    },
+    "complaint": {
+      "0": 2095,
+      "1": 2292
+    }
+  },
+  "test": {
+    "source_rows": 549,
+    "product_candidates": 217,
+    "no_product_hint": 332,
+    "domain": {
+      "fashion": 159,
+      "app": 194,
+      "cosmetic": 150,
+      "mobile": 46
+    },
+    "complaint": {
+      "0": 270,
+      "1": 279
+    }
+  }
+}

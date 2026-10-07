@@ -1,0 +1,31 @@
+{
+  "custom_rows": 300,
+  "within_split_exact": 0,
+  "within_split_near": 0,
+  "train_eval_exact": 0,
+  "train_eval_near": 0,
+  "original_corpus": {
+    "eval_regression.jsonl": {
+      "rows": 15,
+      "exact_overlaps": 0,
+      "near_overlaps": 0
+    },
+    "eval_target.jsonl": {
+      "rows": 50,
+      "exact_overlaps": 0,
+      "near_overlaps": 0
+    },
+    "holdout_secret.jsonl": {
+      "rows": 20,
+      "exact_overlaps": 0,
+      "near_overlaps": 0
+    },
+    "train_seed.jsonl": {
+      "rows": 250,
+      "exact_overlaps": 0,
+      "near_overlaps": 0
+    }
+  },
+  "regression_explicitly_checked": true,
+  "protected_files_unchanged": true
+}

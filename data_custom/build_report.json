@@ -1,0 +1,162 @@
+{
+  "source_counts": {
+    "train": 4387,
+    "test": 549
+  },
+  "reviewed": 451,
+  "selected": {
+    "train": 250,
+    "test": 50
+  },
+  "skipped": {
+    "no_supported_intent": 90,
+    "no_target_product": 19,
+    "pure_praise_no_request": 18,
+    "ambiguous_text": 6,
+    "custom_duplicate": 1,
+    "quota_full": 17
+  },
+  "mask_counts": {
+    "email": 0,
+    "order_code": 0,
+    "phone": 0
+  },
+  "distributions": {
+    "train": {
+      "intent": {
+        "san_pham_loi": 172,
+        "van_chuyen": 50,
+        "hoan_tien": 6,
+        "hoi_thong_tin": 9,
+        "doi_tra": 13
+      },
+      "urgency": {
+        "trung_binh": 197,
+        "thap": 35,
+        "cao": 18
+      },
+      "product": {
+        "ứng dụng": 29,
+        "máy": 7,
+        "aP hack não": 1,
+        "tiki": 5,
+        "tinh chất": 2,
+        "son": 9,
+        "game": 60,
+        "chai xịt": 1,
+        "aP": 15,
+        "áo quần": 1,
+        "nước tẩy trang": 2,
+        "quần": 16,
+        "dép": 13,
+        "váy": 3,
+        "kem": 4,
+        "kem dưỡng trắng": 1,
+        "lords mobile - gamota": 1,
+        "meSenger": 1,
+        "lazada": 10,
+        "facebook": 5,
+        "áo": 9,
+        "kem nền": 5,
+        "đầm": 8,
+        "sữa rửa mặt": 3,
+        "zing mp3": 1,
+        "điện thoại": 4,
+        "bluezone": 1,
+        "kem trị mụn": 1,
+        "phần mềm": 3,
+        "instagram": 1,
+        "facebook lite": 2,
+        "dầu gội": 1,
+        "ins": 1,
+        "băng đô": 1,
+        "zalo": 7,
+        "tai nghe": 3,
+        "kem chống nắng": 1,
+        "gradpay": 1,
+        "facebOk": 4,
+        "grab": 1,
+        "tiki now": 1,
+        "ứng dụng zingmp3": 1,
+        "sách": 1,
+        "line": 1,
+        "hada labo": 2
+      },
+      "sentiment": {
+        "tieu_cuc": 221,
+        "trung_tinh": 24,
+        "tich_cuc": 5
+      }
+    },
+    "test": {
+      "intent": {
+        "hoan_tien": 1,
+        "san_pham_loi": 31,
+        "doi_tra": 2,
+        "van_chuyen": 15,
+        "hoi_thong_tin": 1
+      },
+      "urgency": {
+        "trung_binh": 42,
+        "cao": 4,
+        "thap": 4
+      },
+      "product": {
+        "tiki": 4,
+        "ứng dụng": 7,
+        "dép": 1,
+        "cửa hàng E": 1,
+        "kem": 6,
+        "line": 1,
+        "game": 9,
+        "đầm": 1,
+        "phần mềm": 1,
+        "quần": 6,
+        "son": 2,
+        "kem nền": 1,
+        "aP": 1,
+        "game liên quân": 1,
+        "áo": 2,
+        "điện thoại samsung galaxy m21": 1,
+        "sữa rửa mặt": 2,
+        "điện thoại": 1,
+        "tinh chất": 1,
+        "ứng dụng line": 1
+      },
+      "sentiment": {
+        "tieu_cuc": 47,
+        "trung_tinh": 3
+      }
+    }
+  },
+  "domains": {
+    "train": {
+      "app": 149,
+      "mobile": 15,
+      "cosmetic": 36,
+      "fashion": 50
+    },
+    "test": {
+      "app": 26,
+      "fashion": 10,
+      "cosmetic": 12,
+      "mobile": 2
+    }
+  },
+  "human_complaint": {
+    "train": {
+      "1": 245,
+      "0": 5
+    },
+    "test": {
+      "1": 49,
+      "0": 1
+    }
+  },
+  "sentiment_rules": {
+    "S1": 269,
+    "S2": 26,
+    "S3": 5
+  },
+  "protected_files_unchanged": true
+}

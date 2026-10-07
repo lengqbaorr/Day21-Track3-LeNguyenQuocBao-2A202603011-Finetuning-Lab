@@ -1,0 +1,16 @@
+[
+  {
+    "split": "train",
+    "url": "https://huggingface.co/api/datasets/tarudesu/ViOCD/parquet/default/train/0.parquet",
+    "file": "train-0.parquet",
+    "sha256": "393960a9fd262f6b92da5a6652f66bfd3af463c13fbc1cf7803388e3030bd794",
+    "bytes": 881522
+  },
+  {
+    "split": "test",
+    "url": "https://huggingface.co/api/datasets/tarudesu/ViOCD/parquet/default/test/0.parquet",
+    "file": "test-0.parquet",
+    "sha256": "fb8bac9c6f6a9db293b9f4dcf816b59f4c846ffa72d0e49ee6884183382c002d",
+    "bytes": 115446
+  }
+]

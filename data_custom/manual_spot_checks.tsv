@@ -1,0 +1,21 @@
+split	row_index	assessment	manual_note
+test	8	confirmed	Explicit refund after cancellation dominates fulfilment; ordinary unresolved urgency; negative sentiment.
+test	27	confirmed	Explicit return pending almost a month triggers high urgency; tiki identifies marketplace service.
+test	81	confirmed	Wrong foundation delivery without return request is van_chuyen; kem nền is an exact product span.
+test	120	corrected	Changed urgency from thap to cao on rereading explicit sớm repair request; five-star approval supports S2 neutral sentiment.
+test	126	confirmed	Concrete privacy question and human complaint 0 support neutral information intent.
+test	259	confirmed	Phone praised but transport strongly criticized; delivery intent and negative sentiment remain appropriate.
+test	324	confirmed	Wrong pictured color is delivery mismatch; accepted quality and value justify S2 neutral and low urgency.
+test	384	confirmed	Corrupted size language preserved; explicit wrong size label and disappointment support delivery intent.
+test	452	confirmed	Repeated irritation and new acne after essence application support product fault and high harm urgency.
+test	480	confirmed	Line notification failure with explicit gấp and business communications warrants high urgency.
+train	43	confirmed	Latest requested remedy is repayment; three-month exchange dispute supports high urgency.
+train	246	confirmed	Direct future price question amid shirt praise supports positive information request under S3.
+train	284	confirmed	Explicit size exchange request takes precedence over fit defect; corrupted size words remain unchanged.
+train	739	confirmed	Unauthorized account access is an active security harm; zalo is an exact service name.
+train	971	confirmed	Refund overdue half a month; marketplace service named tiki; high urgency and negative sentiment.
+train	1353	confirmed	Buyer selected wrong size and asks exchange eligibility; human complaint 0 and praise support positive S3.
+train	1891	confirmed	Explicit pending refund dominates missing pair and wrong color; dép is an exact span.
+train	3520	confirmed	Game praise does not override dissatisfaction with an unfulfilled explicit refund request.
+train	1004	confirmed	Current cleanser is hada labo rather than previously preferred cetaphil; actual skin peeling triggers high urgency.
+train	1053	confirmed	Actual warranty activation status question distinguishes inquiry from an activation-only service request; praise supports S3 positive.
