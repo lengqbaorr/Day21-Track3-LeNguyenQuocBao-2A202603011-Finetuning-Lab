@@ -3,6 +3,8 @@
 **Họ tên**: Le Nguyen Quoc Bao  **MSSV**: 2A202603011  **Ngày**: 2026-10-07
 **Tier**: `T4`  **Base model**: `unsloth/Qwen3.5-4B`  **GPU thực tế**: Colab Tesla T4, `fp16`.
 
+**Định dạng nộp**: Option B — GitHub + HuggingFace Hub; adapter và model card đã xuất bản công khai, trạng thái được xác minh theo bằng chứng người thực hiện cung cấp.
+
 > Số đo chính được chép nguyên từ `results/*.json` và `results/runs.csv`, không làm tròn lại. Bằng chứng định tính bổ sung lấy từ `submission/paired_evidence.md`, một lần chạy chẩn đoán riêng; đường học và loss ở step cuối lấy từ `submission/training_log_excerpt.md`; thời gian stage lấy từ log Colab `colab_run.py` do người thực hiện cung cấp. Thông tin cá nhân, môi trường và cấu hình chạy là khai báo của người thực hiện; split được kiểm tra thêm từ NB1 và file split. Báo cáo phân biệt các nguồn này và không bổ sung đầu ra mô hình chưa lưu.
 
 ---
@@ -20,6 +22,8 @@
 | Eval | `EVAL_LIMIT` không đặt; `eval_limit=null`, `smoke_mode=false`; 50 target và 15 regression (`baselines_frozen.json`) |
 
 Tôi chọn model mặc định của tier vì vừa bộ nhớ Colab free T4 theo khai báo môi trường và giữ lựa chọn model của lab để so sánh với cấu hình tham chiếu. GPU huấn luyện là Colab; máy Windows dùng cho kiểm tra CPU và viết báo cáo không có GPU. Tôi dùng corpus mặc định để kiểm tra pipeline trước khi đổi miền dữ liệu; đáp án JSON có các trường `intent`, `urgency`, `product`, `sentiment`, không chứa reasoning trace. Lần chạy được khai báo xuất phát từ fork [lengqbaorr/Day21-Track3-LeNguyenQuocBao-2A202603011-Finetuning-Lab](https://github.com/lengqbaorr/Day21-Track3-LeNguyenQuocBao-2A202603011-Finetuning-Lab), commit `d27c1c0`.
+
+**Hồ sơ Option B:** adapter đã xuất bản và được xác minh công khai (`private=false`) tại [lnqbaor/lab21-qwen3.5-4b-ticket-lora](https://huggingface.co/lnqbaor/lab21-qwen3.5-4b-ticket-lora), HF commit `881fc28f9eb90064ba2a82c63b6a76bdd8c48db5`, theo bằng chứng người thực hiện cung cấp. Repo có `adapter_model.safetensors`, `adapter_config.json`, các file tokenizer và `README.md`; sinh viên đã upload [hf_card/README.md](../hf_card/README.md) thành model card `README.md` trên HF, với liên kết lưu tại [LINKS.md](../LINKS.md). Model card ghi rõ regression gate FAILED và adapter không dùng triển khai.
 
 Tôi giữ `max_length=1024` để duy trì cấu hình tier giữa các run, dù p95 là 98 và độ dài lớn nhất chỉ 101. Đây là giới hạn trên có dư địa, không phải độ dài điển hình; dữ liệu hiện tại không cho thấy cần giới hạn lớn như vậy. NB1 đề xuất 256, nên giảm xuống mức đề xuất là thử nghiệm hiệu suất hợp lý tiếp theo, áp dụng đồng nhất cho mọi đối chứng. Tôi không coi 1024 là lựa chọn tối ưu đã được đo, cũng không thay cấu hình sau khi thấy kết quả để làm lệch phép so sánh.
 
@@ -187,10 +191,10 @@ Trên target, FT thắng (b) **33/50**, hòa **17/50**, thua **0/50**. Vì vậy
 
 ## Phụ lục — thưởng đã làm
 
-Chưa thực hiện bonus nào; các mục đều chưa đánh dấu.
+B5 đã hoàn thành: adapter và model card đã được sinh viên xuất bản trên repo HF công khai (`private=false`), xác minh theo bằng chứng được cung cấp tại commit `881fc28f9eb90064ba2a82c63b6a76bdd8c48db5`. Các bonus còn lại chưa thực hiện; việc xuất bản không thay đổi verdict FAILED về năng lực regression hay kết luận không triển khai.
 
 - [ ] B1 NB6 merge + hot-swap
 - [ ] B2 dataset miền riêng (`data/CUSTOM_DATASET.md`)
 - [ ] B3 reasoning-trace collapse (hai `MASK_MODE`, kèm `valid_trace_rate`)
 - [ ] B4 quét rank có kiểm soát
-- [ ] B5 HuggingFace Hub — link: chưa có
+- [x] B5 HuggingFace Hub — [lnqbaor/lab21-qwen3.5-4b-ticket-lora](https://huggingface.co/lnqbaor/lab21-qwen3.5-4b-ticket-lora) — đã xuất bản công khai và xác minh; HF commit `881fc28f9eb90064ba2a82c63b6a76bdd8c48db5`.
